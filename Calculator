@@ -1,0 +1,35 @@
+#Calculator
+
+#define functions
+def add(num1,num2):
+   return num1+num2
+def sub(num1,num2):
+   return num1-num2
+def mul(num1,num2):
+   return num1*num2
+def div(num1,num2):
+   return num1/num2
+
+print("Please let us know which operation u want to perform \n" 
+                  "1.addition\n"  "2.Subtaction\n"  "3.Multiply\n"  "4.Division\n")
+
+#take inputs
+
+operation = int(input("Please input here"))
+
+
+
+num1 = int(input("Input 1st number"))
+num2 = int(input("Input 2st number"))
+
+if (operation==1):
+    print(num1,"+" ,num2 ,"=",add(num1,num2))
+    
+if (operation==2):
+    print(num1,"-" ,num2 ,"=",sub(num1,num2))
+    
+if (operation==3):
+    print(num1,"*" ,num2 ,"=",mul(num1,num2))
+    
+if (operation==4):
+    print(num1,"/" ,num2 ,"=",div(num1,num2))
