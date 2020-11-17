@@ -1,0 +1,28 @@
+#22*5=88,65+6=89,22/5=5  #Faulty Calculator #second way
+#take input from user
+
+print("Select any one operation\n","1.+\n","2.-\n","3.*\n","4./\n")
+
+
+number1 = int(input("Input number 1 \n"))
+number2 = int(input("Input number 2 \n"))
+operation = input("Enter operation to be performed")
+
+if (number1==22 or number2==5) and (number2==5 or number1==22) and operation=="*":
+    print(number1, "*",number2,"is",88)
+
+elif (number1==65 or number2==6) and (number2==65 or number1==6) and operation=="+":
+    print(number1, "+",number2,"is",89)
+    
+elif (number1==22 or number2==5) and (number2==5 or number1==22) and operation=="/":
+    print(number1, "/",number2,"is",5)
+    
+else:
+    if operation=="+" :
+        print(number1,"+",number2,"=",number1+number2)
+    elif operation=="-" :
+        print(number1,"-",number2,"=",number1-number2)
+    elif operation=="*" :
+        print(number1,"*",number2,"=",number1*number2)
+    elif operation=="/" :
+        print(number1,"/",number2,"=",number1/number2)
