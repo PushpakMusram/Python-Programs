@@ -1,4 +1,5 @@
-#22*5=88,65+6=89,22/5=5  #Faulty Calculator #second way
+#22*5=88,65+6=89,22/5=5  
+#Faulty Calculator 
 #take input from user
 
 print("Select any one operation\n","1.+\n","2.-\n","3.*\n","4./\n")
