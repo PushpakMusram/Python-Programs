@@ -15,7 +15,7 @@ lst = ["snake","water","gun"]
 pnts = 0
 cnts = 0
 
-while (n<4):
+while (n<10):
     global pnts
     global cnts
     
